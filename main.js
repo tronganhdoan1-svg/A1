@@ -1,38 +1,38 @@
-// import hospital from './hospital.json' with { type: 'json' };
-let patients = [
-        {
-            "id": 1,
-            "fullName": "David Smith",
-            "dateOfBirth": "1985-07-12",
-            "symptoms": [
-                "Fever",
-                "Cough",
-                "Shortness of breath"
-            ]
-        },
-        {
-            "id": 2,
-            "fullName": "Caryna Smith",
-            "dateOfBirth": "1998-06-12",
-            "symptoms": [
-                "Headache",
-                "Nausea"
-            ]
-        },
-        {
-            "id": 3,
-            "fullName": "John Clifford",
-            "dateOfBirth": "1980-01-01",
-            "symptoms": [
-                "Fever"
-            ]
-        }
-    ]
+import hospital from './hospital.json' with { type: 'json' };
+// let patients = [
+//         {
+//             "id": 1,
+//             "fullName": "David Smith",
+//             "dateOfBirth": "1985-07-12",
+//             "symptoms": [
+//                 "Fever",
+//                 "Cough",
+//                 "Shortness of breath"
+//             ]
+//         },
+//         {
+//             "id": 2,
+//             "fullName": "Caryna Smith",
+//             "dateOfBirth": "1998-06-12",
+//             "symptoms": [
+//                 "Headache",
+//                 "Nausea"
+//             ]
+//         },
+//         {
+//             "id": 3,
+//             "fullName": "John Clifford",
+//             "dateOfBirth": "1980-01-01",
+//             "symptoms": [
+//                 "Fever"
+//             ]
+//         }
+//     ]
 
-let hospital = {
-    name: "Central Hospital",
-    patients: patients
-};
+// let hospital = {
+//     name: "Central Hospital",
+//     patients: patients
+// };
 
 
 function showPatients(hospital) {
