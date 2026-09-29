@@ -1,0 +1,31 @@
+{ "patients": 
+    [
+        {
+            "id": 1,
+            "full_Name": "David Smith",
+            "dateOfBirth": "1985-07-12",
+            "symptoms": [
+                "Fever",
+                "Cough",
+                "Shortness of breath"
+            ]
+        },
+        {
+            "id": 2,
+            "full_Name": "Caryna Smith",
+            "dateOfBirth": "1998-06-12",
+            "symptoms": [
+                "Sweating",
+                "Sneezing"
+            ]
+        },
+        {
+            "id": 3,
+            "full_Name": "John Clifford",
+            "dateOfBirth": "1980-01-01",
+            "symptoms": [
+                "Fever"
+            ]
+        }
+    ]
+}
