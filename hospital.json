@@ -1,5 +1,6 @@
-{ "patients": 
-    [
+{ 
+    "name": "Central Hospital",
+    "patients": [
         {
             "id": 1,
             "fullName": "David Smith",
