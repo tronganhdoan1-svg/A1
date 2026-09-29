@@ -2,7 +2,7 @@
     [
         {
             "id": 1,
-            "full_Name": "David Smith",
+            "fullName": "David Smith",
             "dateOfBirth": "1985-07-12",
             "symptoms": [
                 "Fever",
@@ -12,16 +12,16 @@
         },
         {
             "id": 2,
-            "full_Name": "Caryna Smith",
+            "fullName": "Caryna Smith",
             "dateOfBirth": "1998-06-12",
             "symptoms": [
-                "Sweating",
-                "Sneezing"
+                "Headache",
+                "Nausea"
             ]
         },
         {
             "id": 3,
-            "full_Name": "John Clifford",
+            "fullName": "John Clifford",
             "dateOfBirth": "1980-01-01",
             "symptoms": [
                 "Fever"
