@@ -1,4 +1,5 @@
 import hospital from './hospital.json' with { type: 'json' };
+// hello world
 // let patients = [
 //         {
 //             "id": 1,
