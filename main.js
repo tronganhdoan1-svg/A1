@@ -1,3 +1,4 @@
+// import hospital from './hospital.json' with { type: 'json' };
 let patients = [
         {
             "id": 1,
@@ -32,6 +33,7 @@ let hospital = {
     name: "Central Hospital",
     patients: patients
 };
+
 
 function showPatients(hospital) {
     //Make a div container to hold everything and as a target.
@@ -78,7 +80,7 @@ function showPatients(hospital) {
 
 function getPatient(hospital) {
     //Returns a random patient ID from the hospital's patients array.
-    return hospital.patients[Math.floor(Math.random() * 3)].id;
+    return hospital.patients[Math.floor(Math.random() * hospital.patients.length)].id;
 }
 
 //Executes the function and logs the returned HTML string to the console.
